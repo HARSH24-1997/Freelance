@@ -24,7 +24,7 @@ function Footer() {
                 <a href="#" class="facebook pl-2"><FaFacebook size="1rem" color="#ccc"/></a>
                 <a href="#" class="instagram pl-2"><FaInstagram size="1rem" color="#ccc"/></a>
                 <a href="#" class="google-plus pl-2"><AiFillSkype size="1rem" color="#ccc"/></a>
-                <a href="#" class="linkedin pl-2"><FaLinkedinIn size="1rem" color="grey" style={{backgroundColor:"#ccc",backgroundRadius:"50vh"}}/></a>
+                <a href="#" class="linkedin pl-2"><FaLinkedinIn size="1rem" color="grey"/></a>
           </div>    
         </div>
         <div class="p-4 col-md-3">

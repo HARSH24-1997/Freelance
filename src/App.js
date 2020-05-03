@@ -13,24 +13,38 @@ import Tab from './component/Tab';
 import AboutUs from './component/AboutUs';
 import HomePage from './component/Homepage';
 import Portfolio from './component/Portfolio';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <HomePage/>
-    <AboutUs/>
-    {/* <Tab/>
-    <Services/>
-    {/* <Portfolio/> */}
-    {/* <Action/> */}
-    {/* <Testimonial/> */}
-    <Team/>
-    <Clients/>
-    <Pricing/>
-    <Faq/>
-    <Contact/>
-     <Footer/> 
+
+      <Navbar />
+      <Element name="HomePage" className="element" >
+        <HomePage />
+      </Element>
+      <Element name="AboutUs" className="element" >
+        <AboutUs />
+      </Element>
+      <Tab />
+      <Element name="Services" className="element" >
+        <Services />
+      </Element>
+      <Element name="Portfolio" className="element" >
+        <Portfolio />
+      </Element>
+      <Testimonial/>
+      <Action />
+      <Team />
+      <Clients />
+      <Element name="Pricing" className="element" >
+        <Pricing />
+      </Element>
+      <Faq />
+      <Element name="Contact" className="element" >
+        <Contact />
+      </Element>
+      <Footer />
     </>
   );
 }

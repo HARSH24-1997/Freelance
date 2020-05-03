@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 function Navbar() {
     return (
         <>
-          <nav class="navbar navbar-expand-md navbar-light fixed-top" id="main_navbar" >
+          <nav class="shadow-sm navbar navbar-expand-md fixed-top" style={{backgroundColor:"white",boxShadow:"0 8px 6px -6px #999"}} id="main_navbar" >
     <div class="container"> <a class="navbar-brand text-body" href="#">
         <b> Logo</b>
       </a>
@@ -23,7 +24,7 @@ function Navbar() {
       </button>
       <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav ml-auto order-md-11">
-          <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+          <li class="nav-item"><Link activeClass="active" className="nav-link" to="HomePage" spy={true} smooth={true} duration={500} >Home</Link> </li>
           <li class="dropdown"> <a class="nav-link dropdown-toggle" href="#" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" data-offset="10,20" > About</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -39,10 +40,10 @@ function Navbar() {
               </li> */}
             </ul>
           </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Services</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Portfolio</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+          <li class="nav-item"><Link activeClass="active" className="nav-link" to="Services" spy={true} smooth={true} duration={500} >Services</Link> </li>
+          <li class="nav-item"><Link activeClass="active" className="nav-link" to="Portfolio" spy={true} smooth={true} duration={500} >Portfolio</Link> </li>
+          <li class="nav-item"><Link activeClass="active" className="nav-link" to="Pricing" spy={true} smooth={true} duration={500} >Pricing</Link> </li>
+          <li class="nav-item"><Link activeClass="active" className="nav-link" to="Contact" spy={true} smooth={true} duration={500} >Contact</Link> </li>
         </ul>
       </div>
     </div>

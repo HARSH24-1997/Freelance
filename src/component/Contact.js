@@ -1,11 +1,12 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 function Contact() {
     return (
-        <div class="p-5 bg-light" style={{borderTop:"solid",borderColor:"#ccc"}}>
-        <div class="container">
+        <div class="py-5 bg-light" style={{borderTop:"solid",borderColor:"#ccc"}}>
+        <div class="container-fluid">
           <div class="row">
-            <div class="mx-auto text-center col-lg-6">
+            <div class="mx-auto text-center col-lg-5">
               <h2 class="pb-5" style={{color:"#627680"}}>Contact Us</h2>
             </div>
           </div>
