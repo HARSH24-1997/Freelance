@@ -1,0 +1,7 @@
+.team {
+    background: url("../Images/team-bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.75);
+  }
