@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { AiFillSkype } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Navbar() {
     return (
@@ -10,13 +14,13 @@ function Navbar() {
       </a>
       <ul class="navbar-nav d-flex flex-row ml-auto order-xs-11 order-md-12">
         <li class="nav-item"> <a class="nav-link" href="#">
-            <i class="fa fa-twitter fa-fw"></i>
+           <FaFacebook color="black"/>
           </a> </li>
         <li class="nav-item"> <a class="nav-link" href="#">
-            <i class="fa fa-facebook fa-fw"></i>
+            <FaInstagram color="black"/>
           </a> </li>
         <li class="nav-item"> <a class="nav-link" href="#">
-            <i class="fa fa-slack fa-fw"></i>
+            <FaLinkedinIn color="black"/>
           </a> </li>
       </ul>
       <button class="navbar-toggler navbar-toggler-right border-0 order-xs-12" type="button" data-toggle="collapse" data-target="#navbar4" >
