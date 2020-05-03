@@ -4,7 +4,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { AiFillSkype } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-
+import { MdMenu } from 'react-icons/md';
 function Navbar() {
     return (
         <>
@@ -13,18 +13,18 @@ function Navbar() {
         <b> Logo</b>
       </a>
       <ul class="navbar-nav d-flex flex-row ml-auto order-xs-11 order-md-12">
-        <li class="nav-item"> <a class="nav-link" href="#">
+        <li class="nav-item ml-2"> <a class="nav-link" href="#">
            <FaFacebook color="black"/>
           </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">
+        <li class="nav-item ml-2"> <a class="nav-link" href="#">
             <FaInstagram color="black"/>
           </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">
+        <li class="nav-item ml-2"> <a class="nav-link" href="#">
             <FaLinkedinIn color="black"/>
           </a> </li>
       </ul>
-      <button class="navbar-toggler navbar-toggler-right border-0 order-xs-12" type="button" data-toggle="collapse" data-target="#navbar4" >
-        <span class="navbar-toggler-icon"></span>
+      <button style={{color:"black"}} class="navbar-toggler navbar-toggler-right border-0 order-xs-12"  type="button" data-toggle="collapse" data-target="#navbar4" >
+      <MdMenu color="black"/>
       </button>
       <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav ml-auto order-md-11">

@@ -4,6 +4,35 @@ import Best from '../content/Best.js'
 import { AiFillRightCircle } from 'react-icons/ai';
 import {AiFillLeftCircle} from 'react-icons/ai';
 
+var settings = {
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
+
 
 function Testimonial() {
 
@@ -21,6 +50,7 @@ Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipi
           slidesToShow={3}
           slidesToScroll={1}
           autoplaySpeed={3000}
+          {...settings}
          >
 
         {Best.map((props,index)=>(
