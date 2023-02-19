@@ -1,0 +1,8 @@
+.dropdown-menu li {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 200px;
+    line-height: 35px;
+    text-decoration: none;
+}

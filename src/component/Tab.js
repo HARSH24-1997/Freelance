@@ -12,7 +12,7 @@ function Tab() {
         <div class="row d-flex justify-content-around">
           <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
         <div class="nav flex-column nav-tabs" id="v-tabs-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active text-muted border" id="v-tabs-home-tab" data-toggle="pill" href="#v-tabs-home" role="tab" aria-controls="v-tabs-home" aria-selected="true"><h4>Modi sit est</h4>
+          <a class="nav-link active text-muted border" id="v-tabs-home-tab" data-toggle="pill" href="#v-tabs-home" role="tab" aria-controls="v-tabs-home" aria-selected="true"><h4></h4>
                   <p class="text-muted">Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p></a>
           <a class="nav-link text-muted border" id="v-tabs-profile-tab" data-toggle="pill" href="#v-tabs-profile" role="tab" aria-controls="v-tabs-profile" aria-selected="false"> <h4>Unde praesentium sed</h4>
                   <p class="text-muted">Voluptas vel esse repudiandae quo excepturi.</p></a>

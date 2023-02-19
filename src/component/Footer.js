@@ -12,13 +12,13 @@ function Footer() {
       <div style={{borderTop:"solid",borderTopColor:"#ccc"}} >
     <div class="container p-4">
       <div class="row no-gutter">
-        <div class="p-4 col-md-3">
-          <h3 class="mb-3">LOGO</h3>
-          <p class="lead"> <a href="#" class="text-muted"> 365 Park Street, NY</a> </p>
+        <div class="p-4 col-md-4">
+          <h3 class="mb-3">Discover</h3>
+          <p class="lead"> <a href="#" class="text-muted"> 365 Pune, India</a> </p>
           <p class="text-muted"><b>Phone : </b><a href="#" class="text-muted" style={{textDecoration:"none"}}> 542 550 5462</a>
           </p>
           <p class="text-muted"><b>Email : </b><a href="#" class="text-muted">
-             info@pingendo.com</a> </p>
+             email@gmail.com</a> </p>
           <div class="mx-auto">
                 <a href="#" class="twitter pl-2"><AiFillTwitterCircle size="1rem" color="#ccc"/></a>
                 <a href="#" class="facebook pl-2"><FaFacebook size="1rem" color="#ccc"/></a>
@@ -27,7 +27,7 @@ function Footer() {
                 <a href="#" class="linkedin pl-2"><FaLinkedinIn size="1rem" color="grey"/></a>
           </div>    
         </div>
-        <div class="p-4 col-md-3">
+        {/* <div class="p-4 col-md-3">
           <p class="lead"><b>Useful Link</b></p>
           <ul class="list-unstyled">
             <li class="pb-2"><IoIosArrowForward color="#4f70ce" size=".7rem"/><a href="#" class="text-muted ">Home</a></li>
@@ -35,9 +35,9 @@ function Footer() {
             <li class="pb-2"><IoIosArrowForward color="#4f70ce" size=".7rem"/><a href="#" class="text-muted ">Our services</a></li>
             <li class=""><IoIosArrowForward color="#4f70ce" size=".7rem"/><a href="#" class="text-muted">Stories</a></li>
           </ul>
-        </div>
-        <div class="p-4 col-md-3">
-          <p class="lead"><b>Our Services</b></p>
+        </div> */}
+        <div class="p-4 col-md-4">
+          <p class="lead"><b>Useful Link</b></p>
           <ul class="list-unstyled">
             <li class="pb-2 "><IoIosArrowForward color="#4f70ce" size=".7rem"/><a href="#" class="text-muted ">Home</a></li>
             <li class="pb-2"><IoIosArrowForward color="#4f70ce" size=".7rem"/><a href="#" class="text-muted">About us</a></li>
@@ -45,13 +45,13 @@ function Footer() {
             <li class=""><IoIosArrowForward color="#4f70ce" size=".7rem"/><a href="#" class="text-muted">Stories</a></li>
           </ul>
         </div>
-        <div class="py-4 px-2 col-md-3">
-          <p contenteditable="true" class="lead "><b>Our Newsletter</b></p>
-          <p class="text-muted">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        <div class="py-4 px-2 col-md-4">
+          <p contenteditable="true" class="lead "><b>Reach Us</b></p>
+          <p class="text-muted">Please Enter your Email for Contact Purpose</p>
           <form class="form-inline pt-2">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Your e-mail"/>
-              <div class="input-group-append"><button class="btn btn-secondary" type="button" style={{backgroundColor:"#4f70ce"}}>Subscribe</button></div>
+              <input type="text" class="form-control" placeholder="Your Email"/>
+              <div class="input-group-append"><button class="btn btn-secondary" type="button" style={{backgroundColor:"#4f70ce"}}>Submit</button></div>
             </div>
           </form>
         </div>
@@ -60,7 +60,7 @@ function Footer() {
     <div class="container-fluid bg-light p-3" style={{borderTop:"solid",borderTopColor:"#ccc"}} >
     <div class="row">
     <div class="col-md-12 mt-3">
-      <p class="text-center">Created by Harsh</p>
+      <p class="text-center">Discover</p>
     </div>
   </div>
   </div>
