@@ -10,8 +10,10 @@ function Homepage() {
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1>We design digital products that help grow businesses</h1>
-            <h2>We are team of talanted designers making websites with Bootstrap</h2>
+            <h1>
+            Can we stop candidates from offer shopping?
+								</h1>
+            <p>We believe in transparency driven commitment. With Discover, now recruiters can nudge the candidate to make a prompt choice, when the candidate has multiple offers.</p>
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
