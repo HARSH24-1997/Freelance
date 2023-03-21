@@ -34,6 +34,34 @@ text format. PII data always remains in a one-way-hash format.
 										 </p>
           </div>
         </li>
+        <li class="py-1">
+          <a data-toggle="collapse" href="#faq4" class="text-muted collapsed" aria-expanded="false" style={{fontSize: '2.5vh'}}><IoIosArrowForward color="#4f70ce" size=".7rem"/><b>What information is a recruiter expected to provide while posting an offer in Discover?</b> <i class="icofont-simple-up"></i></a>
+          <div id="faq4" class="multi-collapse collapse" data-parent="#faq-list">
+            <p class="lead">
+            Recruiters are expected to provide 3 data points: PAN Card number of the candidate, Date of
+Acceptance of the Offer, Agreed Date of Joining, Final Joining Outcome. Additionally, the recruiter may
+provide notes for their internal reference.
+										 </p>
+          </div>
+        </li>
+        <li class="py-1">
+          <a data-toggle="collapse" href="#faq5" class="text-muted collapsed" aria-expanded="false" style={{fontSize: '2.5vh'}}><IoIosArrowForward color="#4f70ce" size=".7rem"/><b>What information can we see about other companies that have made an offer to the candidate?</b> <i class="icofont-simple-up"></i></a>
+          <div id="faq5" class="multi-collapse collapse" data-parent="#faq-list">
+            <p class="lead">
+            You can see if the candidate has accepted offers from other companies or not. You won’t see the name
+of the companies that made the candidate an offer. You can see other offers’ acceptance date, and
+agreed date of joining										 </p>
+          </div>
+        </li>
+        <li class="py-1">
+          <a data-toggle="collapse" href="#faq6" class="text-muted collapsed" aria-expanded="false" style={{fontSize: '2.5vh'}}><IoIosArrowForward color="#4f70ce" size=".7rem"/><b>How will we know if the candidate who has accepted our offer, also picked up another offer from
+another company?</b> <i class="icofont-simple-up"></i></a>
+          <div id="faq6" class="multi-collapse collapse" data-parent="#faq-list">
+            <p class="lead">
+            You will get an email notification from Discover, as soon as another company’s recruiter adds
+an offer to the same candidate PAN number										 </p>
+          </div>
+        </li>
       </ul>
     </div>
   </div>

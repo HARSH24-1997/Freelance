@@ -9,17 +9,16 @@ import F4 from '../Images/features-4.png';
 function Tab() {
     return (
       <div class="container">
+        <h1>Our Focus Segments</h1>
         <div class="row d-flex justify-content-around">
           <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
         <div class="nav flex-column nav-tabs" id="v-tabs-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active text-muted border" id="v-tabs-home-tab" data-toggle="pill" href="#v-tabs-home" role="tab" aria-controls="v-tabs-home" aria-selected="true"><h4></h4>
-                  <p class="text-muted">Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p></a>
-          <a class="nav-link text-muted border" id="v-tabs-profile-tab" data-toggle="pill" href="#v-tabs-profile" role="tab" aria-controls="v-tabs-profile" aria-selected="false"> <h4>Unde praesentium sed</h4>
-                  <p class="text-muted">Voluptas vel esse repudiandae quo excepturi.</p></a>
-          <a class="nav-link text-muted border" id="v-tabs-messages-tab" data-toggle="pill" href="#v-tabs-messages" role="tab" aria-controls="v-tabs-messages" aria-selected="false"><h4>Pariatur explicabo vel</h4>
-                  <p class="text-muted">Velit veniam ipsa sit nihil blanditiis mollitia natus.</p></a>
-          <a class="nav-link text-muted border" id="v-tabs-settings-tab" data-toggle="pill" href="#v-tabs-settings" role="tab" aria-controls="v-tabs-settings" aria-selected="false"><h4>Nostrum qui quasi</h4>
-                  <p class="text-muted">Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p></a>
+          <a class="nav-link text-muted border" id="v-tabs-profile-tab" data-toggle="pill" href="#v-tabs-profile" role="tab" aria-controls="v-tabs-profile" aria-selected="false"> <h4>Companies</h4>
+                  {/* <p class="text-muted">Voluptas vel esse repudiandae quo excepturi.</p */}</a>
+          <a class="nav-link text-muted border" id="v-tabs-messages-tab" data-toggle="pill" href="#v-tabs-messages" role="tab" aria-controls="v-tabs-messages" aria-selected="false"><h4>Companies</h4>
+                  {/* <p class="text-muted">Velit veniam ipsa sit nihil blanditiis mollitia natus.</p> */}</a>
+          <a class="nav-link text-muted border" id="v-tabs-settings-tab" data-toggle="pill" href="#v-tabs-settings" role="tab" aria-controls="v-tabs-settings" aria-selected="false"><h4>Consultants</h4>
+                  {/* <p class="text-muted">Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p></a> */}</a>
         </div>
         </div>
         

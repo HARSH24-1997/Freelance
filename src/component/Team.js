@@ -9,7 +9,7 @@ function Team() {
           <div class="row">
             <div class="text-center col-md-12">
               <h1 style={{color:"#627680"}} >Team</h1>
-              <p class="mb-4 lead">agnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              {/* <p class="mb-4 lead">agnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
             </div>
           </div>
           <div class="row">
