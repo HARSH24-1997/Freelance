@@ -31,7 +31,7 @@ function Contact() {
         <div class="container-fluid">
           <div class="row">
             <div class="mx-auto text-center col-lg-5">
-              <h2 class="pb-5">Ask Your Queries ?</h2>
+              <h2 class="pb-5" style={{color:"#627680"}}>Ask Your Queries ?</h2>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
