@@ -5,12 +5,13 @@ import Contact from './component/Contact';
 import Faq from './component/Faq';
 import Services from './component/Services';
 // import Action from './component/Action';
-import Testimonial from './component/Testimonial';
-import Tab from './component/Tab';
+// import Testimonial from './component/Testimonial';
+// import Tab from './component/Tab';
+import Team from './component/Team'
 import AboutUs from './component/AboutUs';
 import HomePage from './component/Homepage';
+import Clients from './component/Clients';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
 function App() {
   return (
     <>
