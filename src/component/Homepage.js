@@ -11,10 +11,11 @@ function Homepage() {
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
             <h1>
-            Can we stop candidates from offer shopping?
+            Offer Shopping - A New Norm?
 								</h1>
-            <p>We believe in transparency driven commitment. With Discover, now recruiters can nudge the candidate to make a prompt choice, when the candidate has multiple offers.</p>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            {/* <p>We believe in transparency driven commitment. With Discover, now recruiters can nudge the candidate to make a prompt choice, when the candidate has multiple offers.</p> */}
+            <p>At our company, we place a strong emphasis on honesty and dedication. Our latest tool, ThePeopleOrder, allows recruiters to encourage candidates to make a timely decision when they are presented with multiple job offers. </p>
+            <a href="https://thepeopleorderdash.netlify.app/" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">

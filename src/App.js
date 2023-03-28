@@ -4,11 +4,12 @@ import Footer from './component/Footer';
 import Contact from './component/Contact';
 import Faq from './component/Faq';
 import Services from './component/Services';
-// import Action from './component/Action';
+import Action from './component/Action';
 // import Testimonial from './component/Testimonial';
 // import Tab from './component/Tab';
 import Team from './component/Team'
 import AboutUs from './component/AboutUs';
+import AboutUs2 from './component/AboutUs2';
 import HomePage from './component/Homepage';
 import Clients from './component/Clients';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
@@ -27,12 +28,15 @@ function App() {
         <Services />
       </Element>
       <Element name="Faq" className="element" >
-        <Faq />
+       
       </Element>
       {/* <Testimonial/> */}
-      {/* <Action /> */}
+      <Action />
+     
+      {/* <Clients /> */}
+      <AboutUs2 />
       <Team />
-      <Clients />
+      <Faq />
       <Element name="Contact" className="element" >
         <Contact />
       </Element>

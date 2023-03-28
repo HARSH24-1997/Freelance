@@ -13,12 +13,12 @@ function Footer() {
     <div class="container p-4">
       <div class="row no-gutter">
         <div class="p-4 col-md-4">
-          <h3 class="mb-3">Discover</h3>
-          <p class="lead"> <a href="#" class="text-muted"> 365 Pune, India</a> </p>
-          <p class="text-muted"><b>Phone : </b><a href="#" class="text-muted" style={{textDecoration:"none"}}> 542 550 5462</a>
+          <h3 class="mb-3">ThePeopleOrder</h3>
+          {/* <p class="lead"> <a href="#" class="text-muted"> 365 Pune, India</a> </p> */}
+          <p class="text-muted"><b>Phone : </b><a href="#" class="text-muted" style={{textDecoration:"none"}}> 9870000772/ 98203 91357</a>
           </p>
           <p class="text-muted"><b>Email : </b><a href="#" class="text-muted">
-             email@gmail.com</a> </p>
+          info@thepeopleorder.com </a> </p>
           <div class="mx-auto">
                 <a href="#" class="twitter pl-2"><AiFillTwitterCircle size="1rem" color="#ccc"/></a>
                 <a href="#" class="facebook pl-2"><FaFacebook size="1rem" color="#ccc"/></a>
@@ -60,7 +60,7 @@ function Footer() {
     <div class="container-fluid bg-light p-3" style={{borderTop:"solid",borderTopColor:"#ccc"}} >
     <div class="row">
     <div class="col-md-12 mt-3">
-      <p class="text-center">Discover</p>
+      <p class="text-center">ThePeopleOrder</p>
     </div>
   </div>
   </div>

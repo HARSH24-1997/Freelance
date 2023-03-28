@@ -28,7 +28,7 @@ function Services() {
               <div class="card bg-light">
                 <div class="card-body p-4 text-center" style={{backgroundColor:'white'}}>
                   <GiEarthAmerica size="3rem" color="lightblue"/>
-                  <h4 class="title"><a href="" class="text-dark">Add Candidate</a></h4>
+                  <h4 class="title"><a href="" class="text-dark">Report Offer</a></h4>
                   <p class="description">To register your newly offered candidate, sign in to Discover and navigate to 'Add Offer'.</p>
                 </div>
               </div>

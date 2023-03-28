@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav class="shadow-sm navbar navbar-expand-md fixed-top" style={{ backgroundColor: "white", boxShadow: "0 8px 6px -6px #999" }} id="main_navbar" >
         <div class="container" style={{ color: "black" }}>
-          <b>Discover</b>
+          <b>ThePeopleOrder</b>
           <ul class="navbar-nav d-flex flex-row ml-auto order-xs-11 order-md-12">
             {/* <li class="nav-item ml-2"> <a class="nav-link" href="#">
               <FaFacebook color="black" />
@@ -24,10 +24,10 @@ function Navbar() {
               <FaLinkedinIn color="black" />
             </a> </li> */}
             <li>
-            <a class="btn btn-info ml-2" href="https://thepeopleorderdash.netlify.app/">Login</a>
+            <a style={{backgroundColor:"#008bd1",color:'white'}} class="btn ml-2" href="https://thepeopleorderdash.netlify.app/">Login</a>
             </li>
             <li>
-            <a class="btn btn-info ml-2" href="https://thepeopleorderdash.netlify.app/newUser">Sign Up</a>
+            <a style={{backgroundColor:"#008bd1",color:'white'}}  class="btn ml-2" href="https://thepeopleorderdash.netlify.app/newUser">Sign Up</a>
             </li>
           </ul>
           <button style={{ color: "black" }} class="navbar-toggler navbar-toggler-right border-0 order-xs-12" type="button" data-toggle="collapse" data-target="#navbar4" >
